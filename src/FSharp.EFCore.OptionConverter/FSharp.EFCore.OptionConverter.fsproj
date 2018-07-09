@@ -2,9 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>danieljsummers</Authors>
+    <Description>This package provides a value converter, introduced in Entity Framework Core 2.1, to allow nullable database fields to be mapped to fields/properties defined as F# options, instead of either Nullable&lt;T&gt; or requiring explicit null checks.</Description>
+    <PackageLicenseUrl>https://github.com/danieljsummers/FSharp.EFCore.OptionConverter/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/danieljsummers/FSharp.EFCore.OptionConverter</PackageProjectUrl>
+    <PackageTags>f#; fsharp; efcore; option; valueconverter</PackageTags>
+    <RepositoryUrl>https://github.com/danieljsummers/FSharp.EFCore.OptionConverter</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 

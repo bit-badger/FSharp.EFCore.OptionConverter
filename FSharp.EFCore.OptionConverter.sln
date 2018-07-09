@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.EFCore.OptionConverter", "src\FSharp.EFCore.OptionConverter\FSharp.EFCore.OptionConverter.fsproj", "{2A0F833C-312A-4B02-9D15-0855A98E2EEA}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.EFCore.OptionConverter.Tests", "tests\FSharp.EFCore.OptionConverter.Tests\FSharp.EFCore.OptionConverter.Tests.fsproj", "{2C36DD82-3F23-46CF-91D1-C440D0A4A1B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C36DD82-3F23-46CF-91D1-C440D0A4A1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C36DD82-3F23-46CF-91D1-C440D0A4A1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C36DD82-3F23-46CF-91D1-C440D0A4A1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C36DD82-3F23-46CF-91D1-C440D0A4A1B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.EFCore.OptionConverter", "src\FSharp.EFCore.OptionConverter\FSharp.EFCore.OptionConverter.fsproj", "{2A0F833C-312A-4B02-9D15-0855A98E2EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0F833C-312A-4B02-9D15-0855A98E2EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A7A7710-7884-44EC-9150-5FE5D4DED885}
+	EndGlobalSection
+EndGlobal

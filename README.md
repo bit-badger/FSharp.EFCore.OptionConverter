@@ -1,3 +1,7 @@
+## NOTE _(April 2024)_
+
+To the best of my knowledge, this is still a valid project. I do not believe EF Core has changed their `OptionConverter` interface since it was released. If this library needs attention, please open an issue!
+
 # FSharp.EFCore.OptionConverter
 A value converter that maps nullable database columns to F# `option` fields/properties
 
